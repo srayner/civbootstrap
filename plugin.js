@@ -21,6 +21,7 @@ CKEDITOR.plugins.add( 'civbootstrap',
       tags[11]=["{{ bootstrap:well }} My Content  {{ /bootstrap:well }}", "Well", "Well"];
       tags[12]=["<span class=%27label label-default%27>42</span>", "Default", "Default"];
       tags[13]=["<span class=%27label label-primary%27>42</span>", "Primary", "Primary"];
+      tags[13]=["<span class=%27label label-primary%27>42</span>", "Primary", "Primary"];
       
       editor.filter.allow('span(label,label-default,label-primary)');
       
